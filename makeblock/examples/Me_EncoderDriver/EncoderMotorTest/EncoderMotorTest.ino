@@ -24,5 +24,13 @@ void loop()
     delay(2000);
     motor1.RunSpeed(0);
     delay(2000);
+
+    motor1.RunSpeedAndTime(150, 2000);
+    delay(3000);
+
+    motor2.MoveTo(0, 100);
+    delay(3000);
+    motor2.RunTurns(3, 100);
+    delay(9000);
 }
 
