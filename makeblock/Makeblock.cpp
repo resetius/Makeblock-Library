@@ -11,7 +11,7 @@ MePort_Sig mePort[11] = {{NC, NC}, {11, A8}, {13, A11}, {A10, A9}, {1, 0},
 };
 #else // else ATmega328
 MePort_Sig mePort[11] = {{NC, NC}, {11, 10}, {3, 9}, {12, 13}, {8, 2},
-    {NC, NC}, {A2, A3}, {A6, A1}, {A7, A0}, {6, 7}, {5, 4}
+    {1, 0}, {A2, A3}, {A6, A1}, {A7, A0}, {6, 7}, {5, 4}
 };
 
 #endif
